@@ -1,0 +1,28 @@
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.exe
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.deps.json
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.runtimeconfig.json
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.pdb
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.AssemblyInfoInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.AssemblyInfo.cs
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.csproj.CoreCompileInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\refint\Creational-Singleton_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.pdb
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.genruntimeconfig.cache
+D:\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\ref\Creational-Singleton_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.exe
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.deps.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.runtimeconfig.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\bin\Debug\net6.0\Creational-Singleton_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.AssemblyInfoInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.AssemblyInfo.cs
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.csproj.CoreCompileInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\refint\Creational-Singleton_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\Creational-Singleton_Demo.genruntimeconfig.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Creational-Singleton_Demo\obj\Debug\net6.0\ref\Creational-Singleton_Demo.dll

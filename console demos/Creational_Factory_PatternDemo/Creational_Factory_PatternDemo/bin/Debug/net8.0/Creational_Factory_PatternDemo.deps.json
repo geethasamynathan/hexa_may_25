@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Creational_Factory_PatternDemo/1.0.0": {
+        "runtime": {
+          "Creational_Factory_PatternDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Creational_Factory_PatternDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
