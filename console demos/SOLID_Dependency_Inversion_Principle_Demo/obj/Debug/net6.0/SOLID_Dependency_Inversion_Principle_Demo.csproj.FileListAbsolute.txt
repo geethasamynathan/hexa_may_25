@@ -1,0 +1,28 @@
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.exe
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.deps.json
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.runtimeconfig.json
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.pdb
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.AssemblyInfoInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.AssemblyInfo.cs
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.csproj.CoreCompileInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\refint\SOLID_Dependency_Inversion_Principle_Demo.dll
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.pdb
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.genruntimeconfig.cache
+D:\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\ref\SOLID_Dependency_Inversion_Principle_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.exe
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.deps.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.runtimeconfig.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\bin\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.AssemblyInfoInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.AssemblyInfo.cs
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.csproj.CoreCompileInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\refint\SOLID_Dependency_Inversion_Principle_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\SOLID_Dependency_Inversion_Principle_Demo.genruntimeconfig.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SOLID_Dependency_Inversion_Principle_Demo\obj\Debug\net6.0\ref\SOLID_Dependency_Inversion_Principle_Demo.dll

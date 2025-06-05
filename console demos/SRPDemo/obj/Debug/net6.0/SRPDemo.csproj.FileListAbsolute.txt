@@ -1,0 +1,28 @@
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.AssemblyInfoInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.AssemblyInfo.cs
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.csproj.CoreCompileInputs.cache
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.exe
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.deps.json
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.runtimeconfig.json
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.dll
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.pdb
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.dll
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\refint\SRPDemo.dll
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.pdb
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.genruntimeconfig.cache
+D:\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\ref\SRPDemo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.exe
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.deps.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.runtimeconfig.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\bin\Debug\net6.0\SRPDemo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.AssemblyInfoInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.AssemblyInfo.cs
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.csproj.CoreCompileInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\refint\SRPDemo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\SRPDemo.genruntimeconfig.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\SRPDemo\obj\Debug\net6.0\ref\SRPDemo.dll

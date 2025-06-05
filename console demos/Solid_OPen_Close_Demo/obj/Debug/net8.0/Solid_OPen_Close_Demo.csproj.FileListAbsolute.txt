@@ -1,0 +1,14 @@
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.AssemblyInfoInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.AssemblyInfo.cs
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.csproj.CoreCompileInputs.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\bin\Debug\net8.0\Solid_OPen_Close_Demo.exe
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\bin\Debug\net8.0\Solid_OPen_Close_Demo.deps.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\bin\Debug\net8.0\Solid_OPen_Close_Demo.runtimeconfig.json
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\bin\Debug\net8.0\Solid_OPen_Close_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\bin\Debug\net8.0\Solid_OPen_Close_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\refint\Solid_OPen_Close_Demo.dll
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.pdb
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\Solid_OPen_Close_Demo.genruntimeconfig.cache
+C:\Personal\D Backup\geetha.20.01.25\Hexaware oct 22\Design Principles Demos\Solid_OPen_Close_Demo\obj\Debug\net8.0\ref\Solid_OPen_Close_Demo.dll

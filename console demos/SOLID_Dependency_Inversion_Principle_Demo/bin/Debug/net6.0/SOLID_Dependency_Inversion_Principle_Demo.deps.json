@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SOLID_Dependency_Inversion_Principle_Demo/1.0.0": {
+        "runtime": {
+          "SOLID_Dependency_Inversion_Principle_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SOLID_Dependency_Inversion_Principle_Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
