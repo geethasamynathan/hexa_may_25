@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Behavioural_Observer_Pattern_Demo/1.0.0": {
+        "runtime": {
+          "Behavioural_Observer_Pattern_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Behavioural_Observer_Pattern_Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

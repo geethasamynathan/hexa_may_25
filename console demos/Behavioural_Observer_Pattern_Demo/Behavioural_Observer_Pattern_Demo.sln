@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioural_Observer_Pattern_Demo", "Behavioural_Observer_Pattern_Demo\Behavioural_Observer_Pattern_Demo.csproj", "{7CED5CD6-BE9C-41B6-BD7B-55E0247D4D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CED5CD6-BE9C-41B6-BD7B-55E0247D4D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CED5CD6-BE9C-41B6-BD7B-55E0247D4D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CED5CD6-BE9C-41B6-BD7B-55E0247D4D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CED5CD6-BE9C-41B6-BD7B-55E0247D4D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43F0F51E-3F29-4FD4-BFAC-5EDE4A904DB2}
+	EndGlobalSection
+EndGlobal
