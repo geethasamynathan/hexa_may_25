@@ -1,58 +1,27 @@
-﻿@model Consuming_WebAPI_MVC_App.Models.Product
+﻿@model Consuming_WebAPI_MVC_App.Models.DTOs.ProductCreationDTO
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Product";
 }
 
-<h1>Create</h1>
+<h1>Create New Product</h1>
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Manufacturing_Cost" class="control-label"></label>
-                <input asp-for="Manufacturing_Cost" class="form-control" />
-                <span asp-validation-for="Manufacturing_Cost" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ManufacturedDate" class="control-label"></label>
-                <input asp-for="ManufacturedDate" class="form-control" />
-                <span asp-validation-for="ManufacturedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Selling_Price" class="control-label"></label>
-                <input asp-for="Selling_Price" class="form-control" />
-                <span asp-validation-for="Selling_Price" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ISActive" /> @Html.DisplayNameFor(model => model.ISActive)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<form asp-controller="Products" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Name">Product Name:</label>
+        <input type="text" class="form-control" id="Name" name="Name" required />
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    <div class="form-group">
+        <label for="Category">Category:</label>
+        <input type="text" class="form-control" id="Category" name="Category" required />
+    </div>
+    <div class="form-group">
+        <label for="Selling_Price">Selling Price:</label>
+        <input type="number" class="form-control" id="Selling_Price" name="Selling_Price" required />
+    </div>
+    <div class="form-group">
+        <label for="ProductImageUrl">Product Image:</label>
+        <input type="file" class="form-control" id="ProductImageUrl" name="ProductImageUrl" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

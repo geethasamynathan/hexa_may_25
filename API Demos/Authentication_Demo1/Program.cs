@@ -1,6 +1,7 @@
 
 using Authentication_Demo1.Authentication;
 using Authentication_Demo1.Contexts;
+using Authentication_Demo1.Mapping;
 using Authentication_Demo1.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -24,10 +25,14 @@ namespace Authentication_Demo1
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IProductRepo,ProductRepo>();
+
             builder.Services.AddDbContext<ProductContext>(opts => opts.UseSqlServer(
                 builder.Configuration.GetConnectionString("authconnection")));
+
             builder.Services.AddDbContext<ApplicationDbContext>(options => 
             options.UseSqlServer(builder.Configuration.GetConnectionString("authconnection")));
+
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddIdentity<ApplicationUser,IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();

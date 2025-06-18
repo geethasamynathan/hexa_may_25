@@ -116,5 +116,55 @@ namespace Authentication_Demo1.Controllers
                 StatusMessage = "User created successfully" });
             
         }
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+                return BadRequest(new { message = "Invalid Email Address" });
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            // In a real-world app, this token would be sent via email.
+            // For now, return it directly for testing/demo purposes
+            var encodedToken = System.Net.WebUtility.UrlEncode(token);
+
+            var resetLink = Url.Action(nameof(ResetPassword), "Auth", new { email = model.Email, token = encodedToken }, Request.Scheme);
+
+            return Ok(new
+            {
+                Status = "Success",
+                Message = "Password reset token generated successfully.",
+                ResetLink = resetLink
+            });
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+                return BadRequest(new { message = "User not found." });
+
+            var decodedToken = System.Net.WebUtility.UrlDecode(model.Token);
+            var result = await _userManager.ResetPasswordAsync(user, decodedToken, model.NewPassword);
+
+            if (!result.Succeeded)
+                return BadRequest(new
+                {
+                    message = "Password reset failed",
+                    errors = result.Errors.Select(e => e.Description)
+                });
+
+            return Ok(new { Status = "Success", Message = "Password has been reset successfully" });
+        }
+
     }
 }
+
