@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EKu5PYvEtCBoPJSctcCr2Qv2iFpJmcy3sGJcFHukwAye5/p0B59QtBzfrqCE2ZQWS9jDfrLTHlrykEO/UbOiTA==",
+  "dgSpecHash": "Rf1Z4XKGI8AM7+zxttGQWdOmG2jUAlOy4TG/ADsUNBk0hS0OKOO7kvv1OJD5sgc/mk0G/0qOQ6wgUg11lfFI9Q==",
   "success": true,
   "projectFilePath": "C:\\Personal\\Hexa may 25\\Notes Git\\hexa_may_25\\API Demos\\Authentication_Demo1\\Authentication_Demo1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

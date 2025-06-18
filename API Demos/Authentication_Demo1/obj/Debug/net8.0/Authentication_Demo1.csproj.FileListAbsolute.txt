@@ -149,3 +149,4 @@ C:\Personal\Hexa may 25\Notes Git\hexa_may_25\API Demos\Authentication_Demo1\obj
 C:\Personal\Hexa may 25\Notes Git\hexa_may_25\API Demos\Authentication_Demo1\obj\Debug\net8.0\Authentication_Demo1.pdb
 C:\Personal\Hexa may 25\Notes Git\hexa_may_25\API Demos\Authentication_Demo1\obj\Debug\net8.0\Authentication_Demo1.genruntimeconfig.cache
 C:\Personal\Hexa may 25\Notes Git\hexa_may_25\API Demos\Authentication_Demo1\obj\Debug\net8.0\ref\Authentication_Demo1.dll
+C:\Personal\Hexa may 25\Notes Git\hexa_may_25\API Demos\Authentication_Demo1\bin\Debug\net8.0\AutoMapper.dll
