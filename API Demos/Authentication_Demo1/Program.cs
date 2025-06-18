@@ -24,6 +24,16 @@ namespace Authentication_Demo1
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader());
+            });
+
+
             builder.Services.AddScoped<IProductRepo,ProductRepo>();
 
             builder.Services.AddDbContext<ProductContext>(opts => opts.UseSqlServer(
@@ -95,7 +105,7 @@ namespace Authentication_Demo1
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();

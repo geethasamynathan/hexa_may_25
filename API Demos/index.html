@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Demos</title>
+  </head>
+  
+      <body>
+  <h1>Consuming Web API in Html Page</h1>
+  <button id="load-products">Load Products</button>
+  <div class="product-list" id="product-list"></div>
+
+  <script>
+    document
+      .getElementById("load-products")
+      .addEventListener("click", function () {
+        fetch("https://localhost:7168/api/Products/all")
+          .then((response) => response.json())
+          .then((data) => {
+            const productListElement = document.getElementById("product-list");
+            productListElement.innerHTML = ""; // Clear previous products
+
+            data.forEach((product) => {
+              console.log(`${product.name} - $${product.selling_Price}`);
+
+              const productItem = document.createElement("div");
+              productItem.classList.add("product");
+              productItem.innerHTML = `
+                <h2>${product.name}</h2>
+                <p>Price: $${product.selling_Price}</p>
+              `;
+
+              productListElement.appendChild(productItem);
+            });
+          })
+          .catch((error) =>
+            console.error("Error fetching products:", error)
+          );
+
+      });
+  </script>
+</body>
+
+    </script>
+  </body>
+</html>

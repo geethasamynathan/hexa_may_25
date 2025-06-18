@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "F+PyDAKvGnbe9jd7R/W8GbUjVFaWEjOAq/iu7mKWd5S4mL8zz3ihJPS5JBubgW404ySpVqzRJY3nssPKKDP6lg==",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\Hexa may 25\\Notes Git\\hexa_may_25\\API Demos\\ECommerceMicroservices\\OrderAPIService\\OrderAPIService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
