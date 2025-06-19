@@ -15,6 +15,9 @@ namespace SimpleWebApiDemo1.Controllers
             _courseService = courseService;
         }
         [HttpGet("GetAllCourses")]
+        [ProducesResponseType(typeof(IEnumerable<Course>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult GetAllCourses()
         {
             try
@@ -27,14 +30,18 @@ namespace SimpleWebApiDemo1.Controllers
                 else
                     return Ok(courses);
             }
-            catch (Exception ex)
+           
+            catch (Exception)
             {
 
-                throw new Exception(ex.Message);
+                return StatusCode(500, "An error occurred while retrieving courses.");
             }
         }
 
         [HttpGet("GetCourseById/{id:int}")]
+        [ProducesResponseType(typeof(Course), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult GetCourseById(int id)
         {
             try
@@ -47,14 +54,16 @@ namespace SimpleWebApiDemo1.Controllers
                 else
                     return Ok(courses);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
-                throw new Exception(ex.Message);
+                return StatusCode(500, "An error occurred while retrieving the course."); 
             }
         }
 
         [HttpPost("createCourse")]
+        [ProducesResponseType(typeof(Course), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult Create(Course course)
         {
             try
@@ -67,28 +76,34 @@ namespace SimpleWebApiDemo1.Controllers
                 else
                     return Ok($"Course added  with id {courses.Id}");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw new Exception(ex.Message);
+                return StatusCode(500, "An error occurred while Creating the course.");
 
             }
         }
         [HttpPut("updateCourse")]
+        [ProducesResponseType(typeof(Course), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult Update(int id,Course course)
         {
             try
             {
-                var courses = _courseService.UpdateCourse(id,course);
+                _courseService.UpdateCourse(id,course);
                  return Ok($"Course Updated  with id {course.Id}");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception(ex.Message);
+                return StatusCode(500, "An error occurred while updating the course.");
             }
         }
 
         [HttpDelete("delete/{id}")]
+        [ProducesResponseType(typeof(Course), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult Delete(int id)
         {
             try
@@ -101,10 +116,10 @@ namespace SimpleWebApiDemo1.Controllers
                 else
                     return Ok($"Course deleted  with id {id}");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw new Exception(ex.Message);
+                return StatusCode(500, "An error occurred while deleting the course.");
             }
         }
     }
