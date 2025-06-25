@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+  li:nth-child(3n + 1) {
+    background-color: peachpuff;
+  }
+  li:nth-child(3n + 2) {
+    background-color: lightblue;
+  }
+  li:nth-child(3n + 3) {
+    background-color: beige;
+  }
+  li {
+    padding: 0.5em;
+  }
+
+  .content p:nth-child(odd) {
+    color: green;
+  }
+
+  .content p:nth-child(even) {
+    color: darkred;
+  }
+</style>
+
+<ol>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+</ol>
+<!-- <div class="content">
+  <p>This is paragraph 1.</p>
+  <p>This is paragraph 2.</p>
+  <p>This is paragraph 3.</p>
+  <p>This is paragraph 4.</p>
+</div> -->
+<style>
+  p {
+    font-size: 12px;
+  }
+  /* p::first-line {
+    font-size: 20px;
+  } */
+
+  p::first-letter {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+  }
+</style>
+
+<p>
+  It takes 20 years to build a reputation <br />and five minutes to ruin it.<br />
+  If you think about that, you'll do things differently.
+</p>

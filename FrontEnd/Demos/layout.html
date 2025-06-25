@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>sample layout creation</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "nav article ads"
+          "footer footer footer";
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-columns: 20% 1fr 15%;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #pageHeader {
+        grid-area: header;
+        text-align: center;
+      }
+      #pageFooter {
+        grid-area: footer;
+      }
+      #mainArticle {
+        grid-area: article;
+      }
+      #siteAds {
+        grid-area: ads;
+      }
+      #mainNav {
+        grid-area: nav;
+      }
+      header,
+      footer,
+      article,
+      nav,
+      div {
+        padding: 20px;
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <title>Example Title</title>
+    <header id="pageHeader">Header</header>
+    <article id="mainArticle">article section</article>
+    <nav id="mainNacv">Nav</nav>
+    <div id="siteAds">Ads</div>
+    <footer id="pageFooter">footer</footer>
+  </body>
+</html>
