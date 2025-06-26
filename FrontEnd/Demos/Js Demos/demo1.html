@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Demo JS</title>
+  </head>
+  <body>
+    <script>
+      function changeHeading() {
+        document.getElementById("mainHeading").innerText = "Heading Changed!";
+      }
+      function submitForm() {
+        const firstName = document.getElementById("txtFName").value;
+        const lastName = document.getElementById("txtLName").value;
+
+        if (firstName === "") {
+          alert("Please enter your first name.");
+          return false; // Prevent form submission
+        }
+        if (lastName === "") {
+          alert("Please enter your last name.");
+          return false; // Prevent form submission
+        }
+        alert("Your Full Name is " + firstName + " " + lastName);
+      }
+    </script>
+
+    <h1 id="mainHeading">Demo JavaScript</h1>
+    <!-- <button id="demoButton" onclick="changeHeading()">Click Me!</button> -->
+
+    <form>
+      <label for="txtFName">Enter First Name:</label>
+      <input
+        type="text"
+        id="txtFName"
+        name="txtFName"
+        placeholder="First Name"
+      />
+      <br />
+      <label for="txtLName">Enter Last Name:</label>
+      <input
+        type="text"
+        id="txtLName"
+        name="txtLName"
+        placeholder="Last Name"
+      />
+      <br />
+      <button type="submit" onclick="submitForm()">Submit</button>
+    </form>
+  </body>
+</html>

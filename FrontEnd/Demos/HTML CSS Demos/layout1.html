@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+    }
+    .header,
+    .footer {
+      background-color: lightgray;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    .nav {
+      background-color: lightblue;
+      height: 35px;
+      line-height: 35px;
+      padding: 10px;
+    }
+    .main {
+      background-color: lightyellow;
+      height: calc(100vh - 150px);
+    }
+    .menu {
+      background-color: lightyellow;
+      width: 20%;
+      vertical-align: top;
+    }
+
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .navbar li {
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .navbar li a:hover {
+      background-color: #6005b0;
+      color: white;
+    }
+    .navbar li a {
+      text-decoration: none;
+      color: #6005b0;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <!--    Header -->
+    <tr>
+      <td colspan="2" class="header">Header Area</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="nav">
+        <ul class="navbar">
+          <li><a href="demo1.html">Home</a></li>
+          <li><a href="table1.html">table</a></li>
+          <li><a href="css float.html">css float</a></li>
+        </ul>
+      </td>
+    </tr>
+    <!-- Main Content-->
+    <tr>
+      <td class="menu">Left side Maenu</td>
+      <td class="main">Right main Content</td>
+    </tr>
+    <!-- Footer -->
+    <tr>
+      <td colspan="2" class="footer">Footer Content</td>
+    </tr>
+  </table>
+</body>
