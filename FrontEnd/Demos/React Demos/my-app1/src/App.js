@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./component/Home";
 import ConditionalRendering from "./component/conditionalrendering";
 import TaskCard from "./component/taskcard";
+import EventHandling from "./component/EventHandling";
 
 function App() {
   let name = "Geetha";
@@ -16,26 +17,29 @@ function App() {
     City: "Paris",
     Department: "Medical",
   };
-  const task1 = {
-    title: "Todo Task",
-    description: "Update the status",
-    status: "In Progress",
-  };
-  const task2 = {
-    title: "FrontEnd Development",
-    description: "Update the status",
-    status: "Pending",
-  };
-  const task3 = {
-    title: "BackEnd DEvelopment",
-    description: "Update the status",
-    status: "Completed",
-  };
+  const tasks = [
+    {
+      title: "Todo Task",
+      description: "Update the status",
+      status: "In Progress",
+    },
+    {
+      title: "FrontEnd Development",
+      description: "Update the status",
+      status: "Pending",
+    },
+    {
+      title: "BackEnd DEvelopment",
+      description: "Update the status",
+      status: "Completed",
+    },
+  ];
   return (
     <div>
-      <TaskCard task={task1} />
-      <TaskCard task={task2} />
-      <TaskCard task={task3} />
+      <EventHandling />
+      {/* {tasks.map((task, index) => (
+        <TaskCard key={index} task={task}></TaskCard>
+      ))} */}
 
       {/* <div className="App">
     <header className="App-header">

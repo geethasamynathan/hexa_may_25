@@ -32,7 +32,6 @@ export default function TaskCard({ task }) {
           style={{
             color: statusColor[task.status],
             fontWeight: "bold",
-            color: "white",
           }}
         >
           Status : {task.status}
