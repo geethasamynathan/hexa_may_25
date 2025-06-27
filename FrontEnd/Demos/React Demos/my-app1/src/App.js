@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Home from "./component/Home";
+import ConditionalRendering from "./component/conditionalrendering";
+import TaskCard from "./component/taskcard";
 
 function App() {
   let name = "Geetha";
@@ -14,11 +16,33 @@ function App() {
     City: "Paris",
     Department: "Medical",
   };
+  const task1 = {
+    title: "Todo Task",
+    description: "Update the status",
+    status: "In Progress",
+  };
+  const task2 = {
+    title: "FrontEnd Development",
+    description: "Update the status",
+    status: "Pending",
+  };
+  const task3 = {
+    title: "BackEnd DEvelopment",
+    description: "Update the status",
+    status: "Completed",
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-        {/* <h1>Welcome to React Session</h1>
+    <div>
+      <TaskCard task={task1} />
+      <TaskCard task={task2} />
+      <TaskCard task={task3} />
+
+      {/* <div className="App">
+    <header className="App-header">
+
+       <Home />
+        <ConditionalRendering /> */}
+      {/* <h1>Welcome to React Session</h1>
         <h2>
           My name is {name} and I am {age} years old.
         </h2>
@@ -42,8 +66,8 @@ function App() {
             <p>Department: {studentInfo.Department}</p>
           </div>
         )} */}
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <p>
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+      {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -54,7 +78,7 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
+      {/* </header> */}
     </div>
   );
 }
