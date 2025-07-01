@@ -13,6 +13,7 @@ import Orders from "./pages/Orders";
 import Profile from "./pages/Profile";
 import Login from "./pages/Login";
 import { AuthProvider } from "./auth/AuthContext";
+import Products from "./pages/Products";
 function Layout() {
   return (
     <>
@@ -32,8 +33,10 @@ function App() {
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
+              {/* <Route path="products">
+                <Route index element={<ProductList />} /> */}
               <Route path="products">
-                <Route index element={<ProductList />} />
+                <Route index element={<Products />} />
                 <Route path=":id" element={<ProductDetails />} />
               </Route>
 

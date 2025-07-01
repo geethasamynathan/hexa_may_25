@@ -14,7 +14,7 @@ export default function ProductCard({ product }) {
             cursor: "pointer",
           }}
         >
-          <h4>{product.name}</h4>
+          <h4>{product.title}</h4>
           <p>{product.price}</p>
         </div>
       }
