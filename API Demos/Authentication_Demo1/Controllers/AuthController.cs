@@ -52,8 +52,11 @@ namespace Authentication_Demo1.Controllers
                     ) ;
                 return Ok(new
                 {
+                    username = user.UserName,
                     token = new JwtSecurityTokenHandler().WriteToken(token),
+                    roles = userRoles,
                     expiration = token.ValidTo
+
 
                 });
 
