@@ -8,12 +8,15 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import NavBar from "./components/Navbar";
 import ProtectedRoute from "./auth/ProtectedRoute";
-import Dashboard from "./pages/Dashboradr";
+import Dashboard from "./pages/Dashboard";
 import Orders from "./pages/Orders";
 import Profile from "./pages/Profile";
 import Login from "./pages/Login";
 import { AuthProvider } from "./auth/AuthContext";
 import Products from "./pages/Products";
+import AdminDashboard from "./pages/admin-dahsboard";
+import StaffDashboard from "./pages/staff-dashboard";
+import StudentDashboard from "./pages/student-Dashboard";
 function Layout() {
   return (
     <>
@@ -27,8 +30,8 @@ function Layout() {
 function App() {
   return (
     <>
-      <AuthProvider>
-        <BrowserRouter>
+      <BrowserRouter>
+        <AuthProvider>
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
@@ -44,13 +47,19 @@ function App() {
                 <Route path="dashboard" element={<Dashboard />} />
                 <Route path="orders" element={<Orders />} />
                 <Route path="profile" element={<Profile />} />
+                <Route path="admin-dashboard" element={<AdminDashboard />} />
+                <Route path="staff-dashboard" element={<StaffDashboard />} />
+                <Route
+                  path="student-dashboard"
+                  element={<StudentDashboard />}
+                />
               </Route>
               <Route path="login" element={<Login />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
-      </AuthProvider>
+        </AuthProvider>
+      </BrowserRouter>
     </>
     // <div className="App">
     //   <header className="App-header">
