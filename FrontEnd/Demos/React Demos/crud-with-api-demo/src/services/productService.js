@@ -9,3 +9,12 @@ export const getAllProducts = async () => {
     throw err;
   }
 };
+export const addProduct = async (product) => {
+  const res = await axios.post("/products/create", product);
+  return res.data;
+};
+
+export const updateProduct = async (id, product) => {
+  const res = await axios.put(`/products/update/${id}`, product);
+  return res.data;
+};
