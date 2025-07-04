@@ -22,7 +22,7 @@ namespace Authentication_Demo1
             {
                 options.AddPolicy("CorsApi", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000")
+                    builder.WithOrigins("http://localhost:5173")
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                            .AllowCredentials();
