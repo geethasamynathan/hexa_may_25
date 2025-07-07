@@ -9,6 +9,9 @@ import PrivateRoute from "./Auth/PrivateRoute";
 import ProductList from "./Components/ProductList";
 import Home from "./Pages/Home";
 import Navbar from "./Components/Navbar";
+import Greet from "./Components/classcomponentdemo";
+import LifeCycleDemo from "./Components/LifecycleClass";
+import LifecycleFunctional from "./Components/LifecycleFunctional";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -17,6 +20,11 @@ function App() {
       {/* <BrowserRouter> */}
       <div className="container">
         <Navbar />
+        {/*  <Greet />
+        <LifeCycleDemo />
+        <br />
+        {/* <br /> 
+        <LifecycleFunctional /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="login" element={<Login />} />

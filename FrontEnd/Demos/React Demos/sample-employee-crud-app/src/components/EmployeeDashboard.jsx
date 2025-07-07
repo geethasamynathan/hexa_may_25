@@ -11,6 +11,7 @@ export default function EmployeeDashboard() {
   const [error, setError] = useState("");
 
   useEffect(() => {
+    console.log("useEffiect load Employees");
     employeeService
       .getAll()
       .then(setEmployees)

@@ -6,9 +6,10 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState({ isLoggedIn: false });
 
-  useEffect(() => {
-    setAuth({ isLoggedIn: isAuthenticated() });
-  }, []);
+  // useEffect(() => {
+  //   console.log("useEffect -AuthContexrt.jsx");
+  //   setAuth({ isLoggedIn: isAuthenticated() });
+  // }, []);
 
   const loginUser = () => setAuth({ isLoggedIn: true });
   const logoutUser = () => setAuth({ isLoggedIn: false });
